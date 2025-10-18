@@ -1,0 +1,17 @@
+{
+  "name": "fullstack-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm --parallel --filter './apps/*' dev",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev:api": "pnpm --filter api start:dev",
+    "build": "pnpm --filter './apps/*' build",
+    "build:api": "pnpm --filter api build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.18.3"
+}
